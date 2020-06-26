@@ -7,7 +7,7 @@ namespace XadrezConsole.Xadrez
     {
         public Bispo(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
-        }
+        } 
 
         public override string ToString()
         {

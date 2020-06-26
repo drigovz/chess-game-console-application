@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 namespace Xadrez
 {
     class PartidaDeXadrez
-    {
+    { 
         public Tabuleiro tab { get; private set; }
         public int turno { get; private set; }
         public Cor jogadorAtual { get; private set; }

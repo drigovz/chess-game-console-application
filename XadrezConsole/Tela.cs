@@ -14,7 +14,7 @@ namespace XadrezConsole
             {
                 Console.Write(8 - i + " ");
                 for (int j = 0; j < tab.colunas; j++)
-                {
+                { 
                     ImprimirPeca(tab.peca(i, j));
                 }
 

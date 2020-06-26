@@ -7,7 +7,7 @@ namespace XadrezConsole.Xadrez
     class Peao : Peca
     {
         private PartidaDeXadrez Partida;
-
+         
         public Peao(Tabuleiro tab, Cor cor, PartidaDeXadrez partida) : base(tab, cor)
         {
             Partida = partida;
